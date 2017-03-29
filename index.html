@@ -30,10 +30,17 @@
     <![endif]-->
 
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-4498776-14', 'auto');
         ga('send', 'pageview');
@@ -65,8 +72,11 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="https://github.com/TriangleDevOps/policies">Policies</a>
-                    </li>   
+                        <a href="#policies">Policies</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#social">Social</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -117,8 +127,34 @@
         </div>
     </section>
 
+    <!-- Policies Section -->
+    <section class="success" id="policies">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Policies</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Triangle DevOps is dedicated to providing a harassment-free community experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion.
+                        We do not tolerate harassment of community participants in any form.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Community participants violating these rules may be sanctioned or expelled from the community at the discretion of the organizers.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://github.com/TriangleDevOps/policies" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> See All Policies
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id="social">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
